@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "flymod",
+	"version": "${version}",
+	"name": "FlyMod",
+	"description": "Fügt /fly hinzu: Creative-Flug für jeden Spieler, ohne OP-Rechte.",
+	"authors": ["du"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["de.example.flymod.FlyMod"]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
